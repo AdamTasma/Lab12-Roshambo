@@ -18,7 +18,7 @@ namespace Lab12
         {
             Console.WriteLine("Please enter 1 for Rock, 2 for Paper, or 3 for Scissors.");
             RoshamboValue = int.Parse(Console.ReadLine());
-            Console.WriteLine(RoshamboValue);
+            //Console.WriteLine(RoshamboValue);
             return RoshamboValue;
         }
 

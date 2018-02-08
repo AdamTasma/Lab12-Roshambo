@@ -19,13 +19,13 @@ namespace Lab12
         {
                 Random rnd = new Random();
             RoshamboValue = rnd.Next(1, 4);
-            Console.WriteLine(RoshamboValue);
+            //Console.WriteLine(RoshamboValue);
             return RoshamboValue;
         }
 
         public override string TheName()
         {
-            Name = "PlayerTwo";
+            Name = "Johnny";
             return Name;
 
         }

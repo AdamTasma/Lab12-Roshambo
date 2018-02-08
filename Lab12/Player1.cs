@@ -24,7 +24,7 @@ namespace Lab12
 
         public override string TheName()
         {
-            Name = "PlayerOne";
+            Name = "Billie";
             return Name;
         }
     }
